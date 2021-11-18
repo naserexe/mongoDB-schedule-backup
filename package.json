@@ -1,0 +1,11 @@
+{
+  "name": "mongodb_schedule_backup",
+  "version": "1.0.0",
+  "description": "MongoDB schedule backup using nodejs",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-cron": "^3.0.0"
+  }
+}
