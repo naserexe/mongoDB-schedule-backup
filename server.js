@@ -27,7 +27,7 @@ const backupMongoDB = () => {
   child.on('exit', (code, signal) => {
     if (code) console.log('Process exit with code:', code);
     else if (signal) console.log('Process killed with signal:', signal);
-    else console.log('Backup is successfully ✅');
+    else console.log('Backup is successful ✅');
   });
 }
 
